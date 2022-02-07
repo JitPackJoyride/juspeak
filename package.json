@@ -9,22 +9,37 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^1.4.1",
+    "@headlessui/react": "^1.4.2",
     "@heroicons/react": "^1.0.5",
-    "@tailwindcss/forms": "^0.3.4",
-    "next": "11.1.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "@supabase/supabase-js": "^1.29.4",
+    "@tippyjs/react": "^4.2.6",
+    "@typeform/embed-react": "^1.2.4",
+    "esbuild": "^0.13.14",
+    "framer-motion": "^5.3.1",
+    "gray-matter": "^4.0.3",
+    "mdx-bundler": "^7.0.0",
+    "next": "^12.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "recoil": "^0.5.2",
+    "resize-observer-polyfill": "^1.5.1",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^4.0.0-beta.2",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.0",
     "@types/react": "17.0.32",
-    "autoprefixer": "^10.3.7",
+    "@types/tailwindcss": "^3.0.7",
+    "@types/uuid": "^8.3.4",
+    "autoprefixer": "^10.4.2",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
-    "postcss": "^8.3.11",
+    "postcss": "^8.4.5",
     "prettier": "^2.4.1",
-    "tailwindcss": "^2.2.17",
+    "prettier-plugin-tailwindcss": "^0.1.5",
+    "tailwindcss": "^3.0.15",
     "typescript": "4.4.4"
   }
 }

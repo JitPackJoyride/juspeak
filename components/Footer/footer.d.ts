@@ -9,7 +9,8 @@ export type SocialProps = Array<
     icon: (props: SVGProps<SVGSVGElement>) => JSX.Element;
   }
 >;
+
 interface LinkProps {
-  name: string;
+  title: string;
   href: string;
 }
