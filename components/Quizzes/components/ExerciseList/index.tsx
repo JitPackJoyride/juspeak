@@ -2,7 +2,7 @@ import { useRecoilState } from "recoil";
 import { exerciseState } from "stores/exerciseStore";
 import { ArrowRightIcon } from "@heroicons/react/solid";
 import Link from "next/link";
-import ExerciseStep from "./components/ExerciseStep";
+import ExerciseListItem from "./components/ExerciseListItem";
 import { useEffect, useMemo, useState } from "react";
 import { supabase } from "utils/supabaseClient";
 import { definitions } from "types/supabase";
@@ -176,7 +176,7 @@ export default function Index() {
           <nav aria-label="Progress" className={"flex-1"}>
             <ol role="list" className="overflow-hidden">
               {exercises.map((exercise, exerciseIndex) => (
-                <ExerciseStep exercise={exercise} key={exerciseIndex} />
+                <ExerciseListItem exercise={exercise} key={exerciseIndex} />
               ))}
             </ol>
           </nav>

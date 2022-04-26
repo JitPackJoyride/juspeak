@@ -7,12 +7,7 @@ module.exports = {
     "./stores/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        "curve-top": "url('./layered-waves-top.svg')",
-        "curve-bottom": "url('./layered-waves-bottom.svg')",
-      },
-    },
+    extend: {},
   },
   variants: {
     extend: {},
